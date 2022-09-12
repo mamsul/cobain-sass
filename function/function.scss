@@ -1,0 +1,7 @@
+@function setPx($param) {
+  @return $param+px;
+}
+
+.text-lg {
+  font-size: setPx(14);
+}

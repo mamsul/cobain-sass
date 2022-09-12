@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(147, 147, 158);
+}
+
+::-moz-placeholder {
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+btn-primary {
+  background-color: rgb(147, 147, 158);
+  border-radius: 10px;
+  -webkit-animation: alternate 0.3s;
+          animation: alternate 0.3s;
+}
+
+btn-alert {
+  background-color: red;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsIi4uL3Nhc3Mvc3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCQTtFQUNFLG9DQWpCYztBQ0VoQjs7QURrQkE7RUFDRSxVQUFBO0FDZkY7O0FEY0E7RUFDRSxVQUFBO0FDZkY7O0FEa0JBO0VBRUUsb0NBMUJjO0VBMkJkLG1CQUZTO0VBR1QsaUNBQUE7VUFBQSx5QkFBQTtBQ2hCRjs7QURtQkE7RUFFRSxxQkFEZ0I7RUFFaEIsa0JBakNPO0FDZ0JUIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

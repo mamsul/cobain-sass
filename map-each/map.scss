@@ -1,0 +1,19 @@
+$colors: (
+  "primary": blue,
+  "danger": red,
+  "warning": yellow,
+  "info": rgb(63, 63, 247),
+  "success": green,
+);
+
+%btn-base {
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+
+@each $key, $value in $colors {
+  .btn-#{$key} {
+    @extend %btn-base;
+    background-color: $value;
+  }
+}

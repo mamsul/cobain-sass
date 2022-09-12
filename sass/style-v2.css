@@ -1,0 +1,1 @@
+.article{background-color:red}.article .title{font-size:12px}.article .body{margin-top:20px}.article .body ul{padding-left:10px}.article .btn{background-color:aqua}.article .btn>.icon{width:5px}.article__header{color:#f8f8ff}.article:hover{background-color:#ff0}.article::after{content:"";color:#7fffd4}/*# sourceMappingURL=style-v2.css.map */

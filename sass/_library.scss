@@ -1,0 +1,33 @@
+$primary-color: rgb(58, 58, 177) !default;
+.article {
+  background-color: $primary-color;
+  .title {
+    font-size: 12px;
+  }
+
+  .body {
+    margin-top: 20px;
+
+    ul {
+      padding-left: 10px;
+    }
+  }
+
+  .btn {
+    background-color: aqua;
+    > .icon {
+      width: 5px;
+    }
+  }
+
+  &__header {
+    color: ghostwhite;
+  }
+  &:hover {
+    background-color: yellow;
+  }
+  &::after {
+    content: "";
+    color: aquamarine;
+  }
+}

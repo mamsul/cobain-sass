@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(147, 147, 158);
+}
+
+::placeholder {
+  color: red;
+}
+
+btn-primary {
+  background-color: rgb(147, 147, 158);
+  border-radius: 10px;
+  animation: alternate 0.3s;
+}
+
+btn-alert {
+  background-color: red;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

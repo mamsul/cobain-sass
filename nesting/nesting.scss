@@ -1,0 +1,27 @@
+// normal
+.card {
+  width: 100px;
+  height: 400px;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+// with nesting
+.card {
+  width: 100px;
+  height: 400px;
+  border: {
+    color: #000;
+    width: 1px;
+    style: solid;
+  }
+  font: {
+    family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    size: 14px;
+    weight: 500;
+  }
+}

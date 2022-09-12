@@ -1,0 +1,36 @@
+$primary-color: rgb(147, 147, 158);
+$corner: 5px;
+
+$font-size: 14px;
+$font-family: 'Arial';
+
+// map
+$color: (
+  'danger': red,
+  'success': green,
+  'info': blue
+);
+
+// list
+$padding: 10px 12px 14px 16px 20px;
+
+body {
+  background-color: $primary-color;
+}
+
+::placeholder{
+  color: red;
+}
+
+btn-primary {
+  $corner: 10px;
+  background-color: $primary-color;
+  border-radius: $corner;
+  animation: alternate .3s;
+}
+
+btn-alert{
+  $primary-color: red;
+  background-color: $primary-color;
+  border-radius: $corner;
+}

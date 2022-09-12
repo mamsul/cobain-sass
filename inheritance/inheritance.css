@@ -1,0 +1,31 @@
+.btn-success, .btn-danger, .btn-warning, .btn-primary {
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-warning {
+  background-color: yellow;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.input-form, .input-form-error {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.input-form-error {
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=inheritance.css.map */
